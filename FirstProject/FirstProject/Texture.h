@@ -1,25 +1,31 @@
-#include <stb_image.h>
-#include <shader_s.h>
-#include <fstream>
-#include <iostream>
-using namespace std;
+#include <glad/glad.h>
+#include <GLFW/glfw3.h>
 
-void framebuffer_size_callback(GLFWwindow* window, int width, int height);
-void processInput(GLFWwindow* window);
+#define STB_IMAGE_IMPLEMENTATION
+#include <stb_image.h>
+
+#include <util/shader_s.h>
+
+#include <iostream>
+
+using namespace std;
 
 int RunTexture()
 {
+    // glfw: initialize and configure
+ // ------------------------------
     glfwInit();
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
-    ifstream infile;
-
 
 #ifdef __APPLE__
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 #endif
 
+    // glfw window creation
+    // --------------------
+    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "LearnOpenGL", NULL, NULL);
     if (window == NULL)
     {
         std::cout << "Failed to create GLFW window" << std::endl;
@@ -29,14 +35,20 @@ int RunTexture()
     glfwMakeContextCurrent(window);
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
 
+    // glad: load all OpenGL function pointers
+    // ---------------------------------------
     if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
     {
         std::cout << "Failed to initialize GLAD" << std::endl;
         return -1;
     }
 
-    Shader ourShader("4.2.texture.vs", "4.2.texture.fs");
+    // build and compile our shader zprogram
+    // ------------------------------------
+    Shader ourShader("vsfs/4.2.texture.vs", "vsfs/4.2.texture.fs");
 
+    // set up vertex data (and buffer(s)) and configure vertex attributes
+    // ------------------------------------------------------------------
     float vertices[] = {
         // positions          // colors           // texture coords
          0.5f,  0.5f, 0.0f,   1.0f, 0.0f, 0.0f,   1.0f, 1.0f, // top right
@@ -88,8 +100,9 @@ int RunTexture()
     // load image, create texture and generate mipmaps
     int width, height, nrChannels;
     stbi_set_flip_vertically_on_load(true); // tell stb_image.h to flip loaded texture's on the y-axis.
-    unsigned char* data = infile("resources/textures/test.png");
-    //unsigned char* data = stbi_load(, &width, &height, &nrChannels, 0);
+    // The FileSystem::getPath(...) is part of the GitHub repository so we can find files on any IDE/platform; replace it with your own image path.
+    string filename = "resources/textures/awesomeface.png";
+    unsigned char* data = stbi_load(filename.c_str(), &width, &height, &nrChannels, 0);
     if (data)
     {
         glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data);
@@ -110,8 +123,8 @@ int RunTexture()
     // set texture filtering parameters
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-    infile.open("resources/textures/test.png");
-    //data = stbi_load(outfile("resources/textures/test.png"), &width, &height, &nrChannels, 0);
+    // load image, create texture and generate mipmaps
+    data = stbi_load(filename.c_str(), &width, &height, &nrChannels, 0);
     if (data)
     {
         // note that the awesomeface.png has transparency and thus an alpha channel, so make sure to tell OpenGL the data type is of GL_RGBA
@@ -175,4 +188,3 @@ int RunTexture()
     glfwTerminate();
     return 0;
 }
-

@@ -1,7 +1,7 @@
-#include "test.h"
 #include "const.h"
-//#include "Triangle.h"
-//#include "CTexture.h"
+
+#include "Shader.h"
+#include "Texture.h"
 
 
 
@@ -10,10 +10,8 @@
 int main()
 {
 
-    RunTest();
-
-    //RunTrangle();    // 三角形
-    //RunTexture();  // 纹理
+    //RunShader();  // 着色器
+    RunTexture();  // 纹理
 
 
 

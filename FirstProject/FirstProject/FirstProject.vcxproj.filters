@@ -23,22 +23,16 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CShader.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="shader_s.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CTexture.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Triangle.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="const.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
