@@ -23,16 +23,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="const.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="test.h">
+    <ClInclude Include="Shader.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Texture.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Shader.h">
+    <ClInclude Include="Transformation.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

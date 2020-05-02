@@ -74,7 +74,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>E:\LearnOpenGL\opengl\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);E:\LearnOpenGL\stb;E:\LearnOpenGL\FirstProject\FirstProject</IncludePath>
+    <IncludePath>E:\LearnOpenGL\opengl\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);E:\LearnOpenGL\stb;E:\LearnOpenGL\FirstProject\FirstProject;</IncludePath>
     <LibraryPath>E:\LearnOpenGL\opengl\lib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -146,10 +146,9 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="const.h" />
     <ClInclude Include="Shader.h" />
-    <ClInclude Include="test.h" />
     <ClInclude Include="Texture.h" />
+    <ClInclude Include="Transformation.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

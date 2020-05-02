@@ -1,21 +1,10 @@
-#include "const.h"
-
-#include "Shader.h"
+//#include "Shader.h"
 #include "Texture.h"
+//#include "Transformation.h"
 
-
-
-
-
-int main()
-{
-
-    //RunShader();  // ×ÅÉ«Æ÷
-    RunTexture();  // ÎÆÀí
-
-
-
-    return 0;
-
+int main() {
+	//RunShader();
+	RunTexture();
+	//RunTransformation();
+	return 0;
 }
-
