@@ -5,3 +5,13 @@
 *.obj
 *.tlog
 *.log
+*.vcxproj
+*.vcxproj
+*.filters
+*.tlog
+*.obj
+*.idb
+*.pdb
+*.exe
+*.ilk
+*.pdb
