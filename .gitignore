@@ -15,3 +15,6 @@
 *.exe
 *.ilk
 *.pdb
+*.tlog
+*.enc
+*.pdb

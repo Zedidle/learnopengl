@@ -13,12 +13,26 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="vsfs">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Illumination">
+      <UniqueIdentifier>{4eda4582-5234-4fd1-beda-4c70dee493f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsfs\Illumination">
+      <UniqueIdentifier>{dc60453b-6d7e-4271-b818-25e4493e2411}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\opengl\src\glad.c">
+    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="..\..\opengl\src\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,5 +49,169 @@
     <ClInclude Include="CoordianteSystems.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="util\camera.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\shader_m.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\shader_s.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="colors.h">
+      <Filter>头文件\Illumination</Filter>
+    </ClInclude>
+    <ClInclude Include="lighting.h">
+      <Filter>头文件\Illumination</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials.h">
+      <Filter>头文件\Illumination</Filter>
+    </ClInclude>
+    <ClInclude Include="LightingMapsSpecular.h">
+      <Filter>头文件\Illumination</Filter>
+    </ClInclude>
+    <ClInclude Include="LightCastersDirectional.h">
+      <Filter>头文件\Illumination</Filter>
+    </ClInclude>
+    <ClInclude Include="LightCastersPoint.h">
+      <Filter>头文件\Illumination</Filter>
+    </ClInclude>
+    <ClInclude Include="LightCastersSpot.h">
+      <Filter>头文件\Illumination</Filter>
+    </ClInclude>
+    <ClInclude Include="MultipleLights.h">
+      <Filter>头文件\Illumination</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vsfs\5.1.transform.fs">
+      <Filter>vsfs</Filter>
+    </None>
+    <None Include="vsfs\5.1.transform.vs">
+      <Filter>vsfs</Filter>
+    </None>
+    <None Include="vsfs\6.3.coordinate_systems.fs">
+      <Filter>vsfs</Filter>
+    </None>
+    <None Include="vsfs\6.3.coordinate_systems.vs">
+      <Filter>vsfs</Filter>
+    </None>
+    <None Include="vsfs\7.4.camera.fs">
+      <Filter>vsfs</Filter>
+    </None>
+    <None Include="vsfs\7.4.camera.vs">
+      <Filter>vsfs</Filter>
+    </None>
+    <None Include="vsfs\3.3.shader.fs">
+      <Filter>vsfs</Filter>
+    </None>
+    <None Include="vsfs\3.3.shader.vs">
+      <Filter>vsfs</Filter>
+    </None>
+    <None Include="vsfs\4.2.texture.fs">
+      <Filter>vsfs</Filter>
+    </None>
+    <None Include="vsfs\4.2.texture.vs">
+      <Filter>vsfs</Filter>
+    </None>
+    <None Include="1.colors.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="1.lamp.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="1.lamp.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="1.colors.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="2.2.basic_lighting.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="2.2.basic_lighting.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="2.2.lamp.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="2.2.lamp.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\3.1.materials.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\3.1.materials.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\3.1.lamp.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\3.1.lamp.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\4.2.lighting_maps.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\4.2.lighting_maps.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\4.2.lamp.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\4.2.lamp.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\5.1.light_casters.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\5.1.light_casters.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\5.1.lamp.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\5.1.lamp.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\5.2.light_casters.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\5.2.light_casters.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\5.2.lamp.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\5.2.lamp.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\5.3.light_casters.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\5.3.light_casters.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\5.3.lamp.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\5.3.lamp.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\6.multiple_lights.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\6.multiple_lights.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\6.lamp.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\6.lamp.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
   </ItemGroup>
 </Project>
