@@ -117,30 +117,6 @@
     <None Include="vsfs\4.2.texture.vs">
       <Filter>vsfs</Filter>
     </None>
-    <None Include="1.colors.fs">
-      <Filter>vsfs\Illumination</Filter>
-    </None>
-    <None Include="1.lamp.vs">
-      <Filter>vsfs\Illumination</Filter>
-    </None>
-    <None Include="1.lamp.fs">
-      <Filter>vsfs\Illumination</Filter>
-    </None>
-    <None Include="1.colors.vs">
-      <Filter>vsfs\Illumination</Filter>
-    </None>
-    <None Include="2.2.basic_lighting.vs">
-      <Filter>vsfs\Illumination</Filter>
-    </None>
-    <None Include="2.2.basic_lighting.fs">
-      <Filter>vsfs\Illumination</Filter>
-    </None>
-    <None Include="2.2.lamp.vs">
-      <Filter>vsfs\Illumination</Filter>
-    </None>
-    <None Include="2.2.lamp.fs">
-      <Filter>vsfs\Illumination</Filter>
-    </None>
     <None Include="vsfs\3.1.materials.vs">
       <Filter>vsfs\Illumination</Filter>
     </None>
@@ -211,6 +187,126 @@
       <Filter>vsfs\Illumination</Filter>
     </None>
     <None Include="vsfs\6.lamp.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\1.colors.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\1.colors.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\1.lamp.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\1.lamp.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\2.2.basic_lighting.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\2.2.basic_lighting.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\2.2.lamp.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\2.2.lamp.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\5.3.lamp.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\5.3.light_casters.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\5.3.light_casters.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\6.lamp.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\6.lamp.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\6.multiple_lights.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\6.multiple_lights.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\1.colors.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\1.colors.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\1.lamp.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\1.lamp.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\2.2.basic_lighting.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\2.2.basic_lighting.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\2.2.lamp.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\2.2.lamp.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\3.1.lamp.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\3.1.lamp.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\3.1.materials.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\3.1.materials.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\4.2.lamp.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\4.2.lamp.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\4.2.lighting_maps.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\4.2.lighting_maps.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\5.1.lamp.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\5.1.lamp.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\5.1.light_casters.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\5.1.light_casters.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\5.2.lamp.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\5.2.lamp.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\5.2.light_casters.fs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\5.2.light_casters.vs">
+      <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\Illuminnation\5.3.lamp.fs">
       <Filter>vsfs\Illumination</Filter>
     </None>
   </ItemGroup>
