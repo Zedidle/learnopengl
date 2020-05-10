@@ -79,8 +79,8 @@ int RunLightMapsSpecular()
 
     // build and compile our shader zprogram
     // ------------------------------------
-    Shader lightingShader("vsfs/4.2.lighting_maps.vs", "vsfs/4.2.lighting_maps.fs");
-    Shader lampShader("vsfs/4.2.lamp.vs", "vsfs/4.2.lamp.fs");
+    Shader lightingShader("vsfs/Illumination/4.2.lighting_maps.vs", "vsfs/Illumination/4.2.lighting_maps.fs");
+    Shader lampShader("vsfs/Illumination/4.2.lamp.vs", "vsfs/Illumination/4.2.lamp.fs");
 
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------

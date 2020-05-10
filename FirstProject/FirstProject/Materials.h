@@ -76,8 +76,8 @@ int RunMaterials()
 
     // build and compile our shader zprogram
     // ------------------------------------
-    Shader lightingShader("vsfs/3.1.materials.vs", "vsfs/3.1.materials.fs");
-    Shader lampShader("vsfs/3.1.lamp.vs", "vsfs/3.1.lamp.fs");
+    Shader lightingShader("vsfs/Illumination/3.1.materials.vs", "vsfs/Illumination/3.1.materials.fs");
+    Shader lampShader("vsfs/Illumination/3.1.lamp.vs", "vsfs/Illumination/3.1.lamp.fs");
 
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------

@@ -76,8 +76,8 @@ int RunColors()
 
     // build and compile our shader zprogram
     // ------------------------------------
-    Shader lightingShader("vsfs/1.colors.vs", "vsfs/1.colors.fs");
-    Shader lampShader("vsfs/1.lamp.vs", "vsfs/1.lamp.fs");
+    Shader lightingShader("vsfs/Illumination/1.colors.vs", "vsfs/Illumination/1.colors.fs");
+    Shader lampShader("vsfs/Illumination/1.lamp.vs", "vsfs/Illumination/1.lamp.fs");
 
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------

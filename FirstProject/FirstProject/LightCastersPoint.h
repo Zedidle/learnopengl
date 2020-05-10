@@ -79,8 +79,8 @@ int RunLightCastersPoint()
 
     // build and compile our shader zprogram
     // ------------------------------------
-    Shader lightingShader("vsfs/5.2.light_casters.vs", "vsfs/5.2.light_casters.fs");
-    Shader lampShader("vsfs/5.2.lamp.vs", "vsfs/5.2.lamp.fs");
+    Shader lightingShader("vsfs/Illumination/5.2.light_casters.vs", "vsfs/Illumination/5.2.light_casters.fs");
+    Shader lampShader("vsfs/Illumination/5.2.lamp.vs", "vsfs/Illumination/5.2.lamp.fs");
 
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------

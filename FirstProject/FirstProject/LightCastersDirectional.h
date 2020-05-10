@@ -76,8 +76,8 @@ int RunLightCastersDirectional()
 
     // build and compile shaders
     // -------------------------
-    Shader lightingShader("vsfs/5.1.light_casters.vs", "vsfs/5.1.light_casters.fs");
-    Shader lampShader("vsfs/5.1.lamp.vs", "vsfs/5.1.lamp.fs");
+    Shader lightingShader("vsfs/Illumination/5.1.light_casters.vs", "vsfs/Illumination/5.1.light_casters.fs");
+    Shader lampShader("vsfs/Illumination/5.1.lamp.vs", "vsfs/Illumination/5.1.lamp.fs");
 
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------

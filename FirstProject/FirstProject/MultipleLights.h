@@ -79,8 +79,8 @@ int RunMultipleLights()
 
     // build and compile our shader zprogram
     // ------------------------------------
-    Shader lightingShader("vsfs/6.multiple_lights.vs", "vsfs/6.multiple_lights.fs");
-    Shader lampShader("vsfs/6.lamp.vs", "vsfs/6.lamp.fs");
+    Shader lightingShader("vsfs/Illumination/6.multiple_lights.vs", "vsfs/Illumination/6.multiple_lights.fs");
+    Shader lampShader("vsfs/Illumination/6.lamp.vs", "vsfs/Illumination/6.lamp.fs");
 
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------
@@ -204,7 +204,7 @@ int RunMultipleLights()
 
         // render
         // ------
-        glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
+        glClearColor(0.4f, 0.3f, 0.2f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
         // be sure to activate shader when setting uniforms/drawing objects
@@ -259,8 +259,8 @@ int RunMultipleLights()
         lightingShader.setVec3("spotLight.position", camera.Position);
         lightingShader.setVec3("spotLight.direction", camera.Front);
         lightingShader.setVec3("spotLight.ambient", 0.0f, 0.0f, 0.0f);
-        lightingShader.setVec3("spotLight.diffuse", 1.0f, 1.0f, 1.0f);
-        lightingShader.setVec3("spotLight.specular", 1.0f, 1.0f, 1.0f);
+        lightingShader.setVec3("spotLight.diffuse", 0.5f, 0.4f, 0.3f);
+        lightingShader.setVec3("spotLight.specular", 0.5f, 0.3f, 0.2f);
         lightingShader.setFloat("spotLight.constant", 1.0f);
         lightingShader.setFloat("spotLight.linear", 0.09);
         lightingShader.setFloat("spotLight.quadratic", 0.032);
