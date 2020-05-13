@@ -32,7 +32,7 @@ float lastFrame = 0.0f;
 // lighting
 glm::vec3 lightPos(1.2f, 1.0f, 2.0f);
 
-int RunColors()
+int Runcolors()
 {
     // glfw: initialize and configure
     // ------------------------------

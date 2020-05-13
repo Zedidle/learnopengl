@@ -10,7 +10,8 @@
 //#include "LightCastersDirectional.h"		// 平行光
 //#include "LightCastersPoint.h"			// 点光源
 //#include "LightCastersSpot.h"		// 聚光
-#include "MultipleLights.h"  // 多光源
+//#include "MultipleLights.h"  // 多光源
+#include "ModelLoading.h"  // 模型加载
 
 int main() {
 	//RunShader();
@@ -18,13 +19,14 @@ int main() {
 	//RunTransformation();
 	//RunCoordinateSystems();
 	//RunCamera();
-	//RunColors();
+	//Runcolors();
 	//RunLighting();
 	//RunMaterials();
 	//RunLightMapsSpecular();
 	//RunLightCastersDirectional();
 	//RunLightCastersPoint();
 	//RunLightCastersSpot();
-	RunMultipleLights();
+	//RunMultipleLights();
+	RunModelLoading(); 
 	return 0;
 }

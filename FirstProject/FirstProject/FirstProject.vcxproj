@@ -105,7 +105,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>opengl32.lib;glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;assimpd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions>/nodefaultlib:"MSVCRT %(AdditionalOptions)</AdditionalOptions>
     </Link>
   </ItemDefinitionGroup>
@@ -155,11 +155,16 @@
     <ClInclude Include="LightCastersPoint.h" />
     <ClInclude Include="LightCastersSpot.h" />
     <ClInclude Include="Materials.h" />
+    <ClInclude Include="ModelLoading.h" />
     <ClInclude Include="MultipleLights.h" />
     <ClInclude Include="Shader.h" />
+    <ClInclude Include="StencilTesting.h" />
     <ClInclude Include="Texture.h" />
     <ClInclude Include="Transformation.h" />
     <ClInclude Include="util\camera.h" />
+    <ClInclude Include="util\mesh.h" />
+    <ClInclude Include="util\model.h" />
+    <ClInclude Include="util\shader.h" />
     <ClInclude Include="util\shader_m.h" />
     <ClInclude Include="util\shader_s.h" />
   </ItemGroup>
@@ -174,6 +179,9 @@
     <None Include="vsfs\6.3.coordinate_systems.vs" />
     <None Include="vsfs\7.4.camera.fs" />
     <None Include="vsfs\7.4.camera.vs" />
+    <None Include="vsfs\HighLevel\2.stencil_single_color.fs" />
+    <None Include="vsfs\HighLevel\2.stencil_testing.fs" />
+    <None Include="vsfs\HighLevel\2.stencil_testing.vs" />
     <None Include="vsfs\Illumination\1.colors.fs" />
     <None Include="vsfs\Illumination\1.colors.vs" />
     <None Include="vsfs\Illumination\1.lamp.fs" />
@@ -206,6 +214,8 @@
     <None Include="vsfs\Illumination\6.lamp.vs" />
     <None Include="vsfs\Illumination\6.multiple_lights.fs" />
     <None Include="vsfs\Illumination\6.multiple_lights.vs" />
+    <None Include="vsfs\ModelLoad\1.model_loading.fs" />
+    <None Include="vsfs\ModelLoad\1.model_loading.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

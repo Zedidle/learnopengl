@@ -1,21 +1,12 @@
 ﻿  main.cpp
 E:\LearnOpenGL\FirstProject\FirstProject\util\shader_m.h(56,41): warning C4101: “e”: 未引用的局部变量
-E:\LearnOpenGL\FirstProject\FirstProject\MultipleLights.h(197,28): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-E:\LearnOpenGL\FirstProject\FirstProject\MultipleLights.h(232,62): warning C4305: “参数”: 从“double”到“float”截断
-E:\LearnOpenGL\FirstProject\FirstProject\MultipleLights.h(233,66): warning C4305: “参数”: 从“double”到“float”截断
-E:\LearnOpenGL\FirstProject\FirstProject\MultipleLights.h(240,62): warning C4305: “参数”: 从“double”到“float”截断
-E:\LearnOpenGL\FirstProject\FirstProject\MultipleLights.h(241,66): warning C4305: “参数”: 从“double”到“float”截断
-E:\LearnOpenGL\FirstProject\FirstProject\MultipleLights.h(248,62): warning C4305: “参数”: 从“double”到“float”截断
-E:\LearnOpenGL\FirstProject\FirstProject\MultipleLights.h(249,66): warning C4305: “参数”: 从“double”到“float”截断
-E:\LearnOpenGL\FirstProject\FirstProject\MultipleLights.h(256,62): warning C4305: “参数”: 从“double”到“float”截断
-E:\LearnOpenGL\FirstProject\FirstProject\MultipleLights.h(257,66): warning C4305: “参数”: 从“double”到“float”截断
-E:\LearnOpenGL\FirstProject\FirstProject\MultipleLights.h(265,57): warning C4305: “参数”: 从“double”到“float”截断
-E:\LearnOpenGL\FirstProject\FirstProject\MultipleLights.h(266,61): warning C4305: “参数”: 从“double”到“float”截断
-E:\LearnOpenGL\FirstProject\FirstProject\MultipleLights.h(367,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-E:\LearnOpenGL\FirstProject\FirstProject\MultipleLights.h(368,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-E:\LearnOpenGL\FirstProject\FirstProject\MultipleLights.h(372,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-E:\LearnOpenGL\FirstProject\FirstProject\MultipleLights.h(373,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-E:\LearnOpenGL\FirstProject\FirstProject\MultipleLights.h(375,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-E:\LearnOpenGL\FirstProject\FirstProject\MultipleLights.h(376,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-E:\LearnOpenGL\FirstProject\FirstProject\MultipleLights.h(385,31): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\util\mesh.h(84,1): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\ModelLoading.h(97,28): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\ModelLoading.h(171,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\ModelLoading.h(172,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\ModelLoading.h(176,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\ModelLoading.h(177,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\ModelLoading.h(179,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\ModelLoading.h(180,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\ModelLoading.h(189,31): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
   FirstProject.vcxproj -> E:\LearnOpenGL\FirstProject\x64\Debug\FirstProject.exe

@@ -27,6 +27,18 @@
     <Filter Include="vsfs\Illumination">
       <UniqueIdentifier>{dc60453b-6d7e-4271-b818-25e4493e2411}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\ModelLoad">
+      <UniqueIdentifier>{85df584d-6895-4cec-9c1c-b0c55d06b62e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsfs\ModelLoad">
+      <UniqueIdentifier>{dfdbed3a-810b-40ef-93bd-984b81465726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\HighLevel">
+      <UniqueIdentifier>{e6b3e98c-f8c2-4111-8683-0e10b10be5f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsfs\HghLevel">
+      <UniqueIdentifier>{42d8460a-e354-41c3-8912-f33e5f235bec}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -84,6 +96,21 @@
     </ClInclude>
     <ClInclude Include="MultipleLights.h">
       <Filter>头文件\Illumination</Filter>
+    </ClInclude>
+    <ClInclude Include="util\shader.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\model.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoading.h">
+      <Filter>头文件\ModelLoad</Filter>
+    </ClInclude>
+    <ClInclude Include="util\mesh.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="StencilTesting.h">
+      <Filter>头文件\HighLevel</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -212,6 +239,21 @@
     </None>
     <None Include="vsfs\Illumination\5.2.light_casters.fs">
       <Filter>vsfs\Illumination</Filter>
+    </None>
+    <None Include="vsfs\ModelLoad\1.model_loading.vs">
+      <Filter>vsfs\ModelLoad</Filter>
+    </None>
+    <None Include="vsfs\ModelLoad\1.model_loading.fs">
+      <Filter>vsfs\ModelLoad</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\2.stencil_testing.vs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\2.stencil_testing.fs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\2.stencil_single_color.fs">
+      <Filter>vsfs\HghLevel</Filter>
     </None>
   </ItemGroup>
 </Project>
