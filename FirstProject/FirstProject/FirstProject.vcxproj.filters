@@ -112,6 +112,30 @@
     <ClInclude Include="StencilTesting.h">
       <Filter>头文件\HighLevel</Filter>
     </ClInclude>
+    <ClInclude Include="BlendingSorted.h">
+      <Filter>头文件\HighLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBuffers.h">
+      <Filter>头文件\HighLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeMapsEnvMap.h">
+      <Filter>头文件\HighLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="vsfs\HighLevel\AdvancedGlslUbo.h">
+      <Filter>头文件\HighLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryShaderHouses.h">
+      <Filter>头文件\HighLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryShaderExploading.h">
+      <Filter>头文件\HighLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalVisualization.h">
+      <Filter>头文件\HighLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="AsteroidsInstanced.h">
+      <Filter>头文件\HighLevel</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="vsfs\5.1.transform.fs">
@@ -255,5 +279,93 @@
     <None Include="vsfs\HighLevel\2.stencil_single_color.fs">
       <Filter>vsfs\HghLevel</Filter>
     </None>
+    <None Include="vsfs\HighLevel\3.2.blending.vs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\3.2.blending.fs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\5.1.framebuffers.vs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\5.1.framebuffers.fs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\5.1.framebuffers_screen.vs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\5.1.framebuffers_screen.fs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\6.2.cubemaps.vs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\6.2.cubemaps.fs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\6.2.skybox.vs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\6.2.skybox.fs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\8.advanced_glsl.vs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\8.red.fs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\8.green.fs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\8.blue.fs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\8.yellow.fs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\9.1.geometry_shader.vs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\9.1.geometry_shader.fs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\9.1.geometry_shader.gs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\9.2.geometry_shader.vs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\9.2.geometry_shader.fs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\9.2.geometry_shader.gs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\9.3.normal_visualization.gs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\9.3.normal_visualization.fs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\9.3.default.vs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\9.3.default.fs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\9.3.normal_visualization.vs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\10.3.asteroids.vs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\10.3.asteroids.fs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\10.3.planet.vs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\10.3.planet.fs" />
   </ItemGroup>
 </Project>

@@ -1,12 +1,16 @@
 ﻿  main.cpp
-E:\LearnOpenGL\FirstProject\FirstProject\util\shader_m.h(56,41): warning C4101: “e”: 未引用的局部变量
+E:\LearnOpenGL\FirstProject\FirstProject\util\shader.h(56,41): warning C4101: “e”: 未引用的局部变量
 E:\LearnOpenGL\FirstProject\FirstProject\util\mesh.h(84,1): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
-E:\LearnOpenGL\FirstProject\FirstProject\ModelLoading.h(97,28): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-E:\LearnOpenGL\FirstProject\FirstProject\ModelLoading.h(171,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-E:\LearnOpenGL\FirstProject\FirstProject\ModelLoading.h(172,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-E:\LearnOpenGL\FirstProject\FirstProject\ModelLoading.h(176,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-E:\LearnOpenGL\FirstProject\FirstProject\ModelLoading.h(177,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-E:\LearnOpenGL\FirstProject\FirstProject\ModelLoading.h(179,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-E:\LearnOpenGL\FirstProject\FirstProject\ModelLoading.h(180,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-E:\LearnOpenGL\FirstProject\FirstProject\ModelLoading.h(189,31): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\AsteroidsInstanced.h(93,22): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\AsteroidsInstanced.h(110,21): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\AsteroidsInstanced.h(114,24): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\AsteroidsInstanced.h(160,28): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\AsteroidsInstanced.h(198,108): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\AsteroidsInstanced.h(244,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\AsteroidsInstanced.h(245,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\AsteroidsInstanced.h(249,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\AsteroidsInstanced.h(250,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\AsteroidsInstanced.h(252,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\AsteroidsInstanced.h(253,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\AsteroidsInstanced.h(262,31): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
   FirstProject.vcxproj -> E:\LearnOpenGL\FirstProject\x64\Debug\FirstProject.exe

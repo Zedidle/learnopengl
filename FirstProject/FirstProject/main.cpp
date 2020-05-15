@@ -11,7 +11,16 @@
 //#include "LightCastersPoint.h"			// 点光源
 //#include "LightCastersSpot.h"		// 聚光
 //#include "MultipleLights.h"  // 多光源
-#include "ModelLoading.h"  // 模型加载
+//#include "ModelLoading.h"  // 模型加载
+//#include "StencilTesting.h"  // 模板测试
+//#include "BlendingSorted.h" // 混合
+//#include "FrameBuffers.h" // 帧缓冲
+//#include "CubeMapsEnvMap.h" // 天空盒
+//#include "AdvancedGlslUbo.h" // 高级GLSL
+//#include "GeometryShaderHouses.h" // 几何着色房子
+//#include "GeometryShaderExploading.h" // 几何着色爆破
+//#include "NormalVisualization.h" // 法向量可视化
+#include "AsteroidsInstanced.h" // 实例化
 
 int main() {
 	//RunShader();
@@ -27,6 +36,15 @@ int main() {
 	//RunLightCastersPoint();
 	//RunLightCastersSpot();
 	//RunMultipleLights();
-	RunModelLoading(); 
+	//RunModelLoading(); 
+	//RunStencilTesting();
+	//RunBlendingSorted();
+	//RunFrameBuffers();
+	//RunCubeMapsEnvMap();
+	//RunAdvancedGlslUbo();
+	//RunGeometryShaderHouses();
+	//RunGeometryShaderExploading();
+	//RunNormalVisualization();
+	RunAsteroidsInstanced();
 	return 0;
 }

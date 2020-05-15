@@ -146,9 +146,15 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AsteroidsInstanced.h" />
+    <ClInclude Include="BlendingSorted.h" />
     <ClInclude Include="Camera.h" />
     <ClInclude Include="colors.h" />
     <ClInclude Include="CoordianteSystems.h" />
+    <ClInclude Include="CubeMapsEnvMap.h" />
+    <ClInclude Include="FrameBuffers.h" />
+    <ClInclude Include="GeometryShaderExploading.h" />
+    <ClInclude Include="GeometryShaderHouses.h" />
     <ClInclude Include="lighting.h" />
     <ClInclude Include="LightingMapsSpecular.h" />
     <ClInclude Include="LightCastersDirectional.h" />
@@ -157,6 +163,7 @@
     <ClInclude Include="Materials.h" />
     <ClInclude Include="ModelLoading.h" />
     <ClInclude Include="MultipleLights.h" />
+    <ClInclude Include="NormalVisualization.h" />
     <ClInclude Include="Shader.h" />
     <ClInclude Include="StencilTesting.h" />
     <ClInclude Include="Texture.h" />
@@ -167,6 +174,7 @@
     <ClInclude Include="util\shader.h" />
     <ClInclude Include="util\shader_m.h" />
     <ClInclude Include="util\shader_s.h" />
+    <ClInclude Include="vsfs\HighLevel\AdvancedGlslUbo.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="vsfs\3.3.shader.fs" />
@@ -179,9 +187,39 @@
     <None Include="vsfs\6.3.coordinate_systems.vs" />
     <None Include="vsfs\7.4.camera.fs" />
     <None Include="vsfs\7.4.camera.vs" />
+    <None Include="vsfs\HighLevel\10.3.asteroids.fs" />
+    <None Include="vsfs\HighLevel\10.3.asteroids.vs" />
+    <None Include="vsfs\HighLevel\10.3.planet.fs" />
+    <None Include="vsfs\HighLevel\10.3.planet.vs" />
     <None Include="vsfs\HighLevel\2.stencil_single_color.fs" />
     <None Include="vsfs\HighLevel\2.stencil_testing.fs" />
     <None Include="vsfs\HighLevel\2.stencil_testing.vs" />
+    <None Include="vsfs\HighLevel\3.2.blending.fs" />
+    <None Include="vsfs\HighLevel\3.2.blending.vs" />
+    <None Include="vsfs\HighLevel\5.1.framebuffers.fs" />
+    <None Include="vsfs\HighLevel\5.1.framebuffers.vs" />
+    <None Include="vsfs\HighLevel\5.1.framebuffers_screen.fs" />
+    <None Include="vsfs\HighLevel\5.1.framebuffers_screen.vs" />
+    <None Include="vsfs\HighLevel\6.2.cubemaps.fs" />
+    <None Include="vsfs\HighLevel\6.2.cubemaps.vs" />
+    <None Include="vsfs\HighLevel\6.2.skybox.fs" />
+    <None Include="vsfs\HighLevel\6.2.skybox.vs" />
+    <None Include="vsfs\HighLevel\8.advanced_glsl.vs" />
+    <None Include="vsfs\HighLevel\8.blue.fs" />
+    <None Include="vsfs\HighLevel\8.green.fs" />
+    <None Include="vsfs\HighLevel\8.red.fs" />
+    <None Include="vsfs\HighLevel\8.yellow.fs" />
+    <None Include="vsfs\HighLevel\9.1.geometry_shader.fs" />
+    <None Include="vsfs\HighLevel\9.1.geometry_shader.gs" />
+    <None Include="vsfs\HighLevel\9.1.geometry_shader.vs" />
+    <None Include="vsfs\HighLevel\9.2.geometry_shader.fs" />
+    <None Include="vsfs\HighLevel\9.2.geometry_shader.gs" />
+    <None Include="vsfs\HighLevel\9.2.geometry_shader.vs" />
+    <None Include="vsfs\HighLevel\9.3.default.fs" />
+    <None Include="vsfs\HighLevel\9.3.default.vs" />
+    <None Include="vsfs\HighLevel\9.3.normal_visualization.fs" />
+    <None Include="vsfs\HighLevel\9.3.normal_visualization.gs" />
+    <None Include="vsfs\HighLevel\9.3.normal_visualization.vs" />
     <None Include="vsfs\Illumination\1.colors.fs" />
     <None Include="vsfs\Illumination\1.colors.vs" />
     <None Include="vsfs\Illumination\1.lamp.fs" />
