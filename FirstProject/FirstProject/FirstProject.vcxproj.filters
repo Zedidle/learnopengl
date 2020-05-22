@@ -39,6 +39,18 @@
     <Filter Include="vsfs\HghLevel">
       <UniqueIdentifier>{42d8460a-e354-41c3-8912-f33e5f235bec}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\AdvancedLighting">
+      <UniqueIdentifier>{5f60b8ba-c0f8-475f-a851-6e07f4233b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsfs\AdvancedLighting">
+      <UniqueIdentifier>{49c01530-19b4-473e-8616-0713e0223337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vsfs\PBR">
+      <UniqueIdentifier>{a2083393-45d3-459b-bad3-dd56784e7f64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\PBR">
+      <UniqueIdentifier>{ef9e0eec-f7cd-4d9d-acb2-f9e3ccf2289e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -135,6 +147,57 @@
     </ClInclude>
     <ClInclude Include="AsteroidsInstanced.h">
       <Filter>头文件\HighLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="BlinnPhong.h">
+      <Filter>头文件\AdvancedLighting</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowMappingDepth.h">
+      <Filter>头文件\AdvancedLighting</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowMappingBase.h">
+      <Filter>头文件\AdvancedLighting</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalMapping.h">
+      <Filter>头文件\AdvancedLighting</Filter>
+    </ClInclude>
+    <ClInclude Include="ParallaxMapping.h">
+      <Filter>头文件\AdvancedLighting</Filter>
+    </ClInclude>
+    <ClInclude Include="vsfs\AdvancedLighting\parallax_mapping.vs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </ClInclude>
+    <ClInclude Include="HDR.h">
+      <Filter>头文件\AdvancedLighting</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredShadingVolumes.h">
+      <Filter>头文件\AdvancedLighting</Filter>
+    </ClInclude>
+    <ClInclude Include="Bloom.h">
+      <Filter>头文件\AdvancedLighting</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredShading.h">
+      <Filter>头文件\AdvancedLighting</Filter>
+    </ClInclude>
+    <ClInclude Include="SSAO.h">
+      <Filter>头文件\AdvancedLighting</Filter>
+    </ClInclude>
+    <ClInclude Include="PointShadows.h">
+      <Filter>头文件\AdvancedLighting</Filter>
+    </ClInclude>
+    <ClInclude Include="ParallaxOcclusionMapping.h">
+      <Filter>头文件\AdvancedLighting</Filter>
+    </ClInclude>
+    <ClInclude Include="PBRLight.h">
+      <Filter>头文件\PBR</Filter>
+    </ClInclude>
+    <ClInclude Include="PBRLightTexture.h">
+      <Filter>头文件\PBR</Filter>
+    </ClInclude>
+    <ClInclude Include="IblIrradianceConversion.h">
+      <Filter>头文件\PBR</Filter>
+    </ClInclude>
+    <ClInclude Include="IblIrradiance.h">
+      <Filter>头文件\PBR</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -366,6 +429,224 @@
     <None Include="vsfs\HighLevel\10.3.planet.vs">
       <Filter>vsfs\HghLevel</Filter>
     </None>
-    <None Include="vsfs\HighLevel\10.3.planet.fs" />
+    <None Include="vsfs\AdvancedLighting\1.advanced_lighting.vs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\1.advanced_lighting.fs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\3.1.1.shadow_mapping_depth.vs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\3.1.1.debug_quad.vs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\3.1.1.shadow_mapping_depth.fs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\3.1.1.debug_quad_depth.fs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\3.1.2.debug_quad.vs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\3.1.2.debug_quad_depth.fs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\3.1.2.shadow_mapping.fs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\3.1.2.shadow_mapping.vs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\3.1.2.shadow_mapping_depth.fs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\3.1.2.shadow_mapping_depth.vs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\HighLevel\10.3.planet.fs">
+      <Filter>vsfs\HghLevel</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\normal_mapping.vs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\normal_mapping.fs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\parallax_mapping.fs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\6.hdr.fs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\6.hdr.vs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\6.lighting.fs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\6.lighting.vs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\7.bloom_final.fs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\7.bloom_final.vs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\7.blur.fs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\7.blur.vs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\7.light_box.fs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\7.bloom.fs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\7.bloom.vs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\8.2.g_buffer.vs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\8.2.g_buffer.fs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\8.2.deferred_shading.vs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\8.2.deferred_shading.fs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\8.2.deferred_light_box.vs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\8.2.deferred_light_box.fs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\8.1.deferred_light_box.vs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\8.1.deferred_shading.vs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\8.1.deferred_light_box.fs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\8.1.deferred_shading.fs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\8.1.g_buffer.fs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\8.1.g_buffer.vs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\9.ssao_blur.fs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\9.ssao.vs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\9.ssao.fs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\9.ssao_lighting.fs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\9.ssao_geometry.fs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\9.ssao_geometry.vs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\3.2.1.point_shadows.vs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\3.2.1.point_shadows.fs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\3.2.1.point_shadows_depth.vs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\3.2.1.point_shadows_depth.fs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\3.2.1.point_shadows_depth.gs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\4.normal_mapping.vs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\4.normal_mapping.fs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\5.1.parallax_mapping.vs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\5.1.parallax_mapping.fs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\5.3.parallax_mapping.vs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\AdvancedLighting\5.3.parallax_mapping.fs">
+      <Filter>vsfs\AdvancedLighting</Filter>
+    </None>
+    <None Include="vsfs\PBR\1.1.pbr.vs">
+      <Filter>vsfs\PBR</Filter>
+    </None>
+    <None Include="vsfs\PBR\1.1.pbr.fs">
+      <Filter>vsfs\PBR</Filter>
+    </None>
+    <None Include="vsfs\PBR\1.2.pbr.vs">
+      <Filter>vsfs\PBR</Filter>
+    </None>
+    <None Include="vsfs\PBR\1.2.pbr.fs">
+      <Filter>vsfs\PBR</Filter>
+    </None>
+    <None Include="vsfs\PBR\2.1.1.background.vs">
+      <Filter>vsfs\PBR</Filter>
+    </None>
+    <None Include="vsfs\PBR\2.1.1.background.fs">
+      <Filter>vsfs\PBR</Filter>
+    </None>
+    <None Include="vsfs\PBR\2.1.1.equirectangular_to_cubemap.fs">
+      <Filter>vsfs\PBR</Filter>
+    </None>
+    <None Include="vsfs\PBR\2.1.1.cubemap.vs">
+      <Filter>vsfs\PBR</Filter>
+    </None>
+    <None Include="vsfs\PBR\2.1.1.pbr.fs">
+      <Filter>vsfs\PBR</Filter>
+    </None>
+    <None Include="vsfs\PBR\2.1.1.pbr.vs">
+      <Filter>vsfs\PBR</Filter>
+    </None>
+    <None Include="vsfs\PBR\2.1.2.background.fs">
+      <Filter>vsfs\PBR</Filter>
+    </None>
+    <None Include="vsfs\PBR\2.1.2.background.vs">
+      <Filter>vsfs\PBR</Filter>
+    </None>
+    <None Include="vsfs\PBR\2.1.2.irradiance_convolution.fs">
+      <Filter>vsfs\PBR</Filter>
+    </None>
+    <None Include="vsfs\PBR\2.1.2.cubemap.vs">
+      <Filter>vsfs\PBR</Filter>
+    </None>
+    <None Include="vsfs\PBR\2.1.2.equirectangular_to_cubemap.fs">
+      <Filter>vsfs\PBR</Filter>
+    </None>
+    <None Include="vsfs\PBR\2.1.2.pbr.fs">
+      <Filter>vsfs\PBR</Filter>
+    </None>
+    <None Include="vsfs\PBR\2.1.2.pbr.vs">
+      <Filter>vsfs\PBR</Filter>
+    </None>
   </ItemGroup>
 </Project>

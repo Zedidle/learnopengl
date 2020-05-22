@@ -1,16 +1,17 @@
 ﻿  main.cpp
 E:\LearnOpenGL\FirstProject\FirstProject\util\shader.h(56,41): warning C4101: “e”: 未引用的局部变量
 E:\LearnOpenGL\FirstProject\FirstProject\util\mesh.h(84,1): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
-E:\LearnOpenGL\FirstProject\FirstProject\AsteroidsInstanced.h(93,22): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
-E:\LearnOpenGL\FirstProject\FirstProject\AsteroidsInstanced.h(110,21): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-E:\LearnOpenGL\FirstProject\FirstProject\AsteroidsInstanced.h(114,24): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
-E:\LearnOpenGL\FirstProject\FirstProject\AsteroidsInstanced.h(160,28): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-E:\LearnOpenGL\FirstProject\FirstProject\AsteroidsInstanced.h(198,108): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
-E:\LearnOpenGL\FirstProject\FirstProject\AsteroidsInstanced.h(244,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-E:\LearnOpenGL\FirstProject\FirstProject\AsteroidsInstanced.h(245,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-E:\LearnOpenGL\FirstProject\FirstProject\AsteroidsInstanced.h(249,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-E:\LearnOpenGL\FirstProject\FirstProject\AsteroidsInstanced.h(250,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-E:\LearnOpenGL\FirstProject\FirstProject\AsteroidsInstanced.h(252,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-E:\LearnOpenGL\FirstProject\FirstProject\AsteroidsInstanced.h(253,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-E:\LearnOpenGL\FirstProject\FirstProject\AsteroidsInstanced.h(262,31): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\IblIrradiance.h(258,28): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\IblIrradiance.h(376,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\IblIrradiance.h(377,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\IblIrradiance.h(381,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\IblIrradiance.h(382,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\IblIrradiance.h(384,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\IblIrradiance.h(385,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\IblIrradiance.h(394,31): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\IblIrradiance.h(418,39): warning C4305: “初始化”: 从“double”到“float”截断
+E:\LearnOpenGL\FirstProject\FirstProject\IblIrradiance.h(456,36): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\IblIrradiance.h(483,57): warning C4244: “参数”: 从“float”转换到“GLsizei”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\IblIrradiance.h(485,57): warning C4244: “参数”: 从“float”转换到“GLsizei”，可能丢失数据
+E:\LearnOpenGL\FirstProject\FirstProject\IblIrradiance.h(487,57): warning C4244: “参数”: 从“float”转换到“GLsizei”，可能丢失数据
   FirstProject.vcxproj -> E:\LearnOpenGL\FirstProject\x64\Debug\FirstProject.exe

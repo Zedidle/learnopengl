@@ -20,7 +20,23 @@
 //#include "GeometryShaderHouses.h" // 几何着色房子
 //#include "GeometryShaderExploading.h" // 几何着色爆破
 //#include "NormalVisualization.h" // 法向量可视化
-#include "AsteroidsInstanced.h" // 实例化
+//#include "AsteroidsInstanced.h" // 实例化
+//#include "BlinnPhong.h"  // BlinnPhong光照
+//#include "ShadowMappingDepth.h" // 深度贴图 
+//#include "ShadowMappingBase.h" // 改进贴图
+//#include "PointShadows.h"
+//#include "NormalMapping.h"  // 法线贴图
+//#include "ParallaxMapping.h" // 视差贴图
+//#include "ParallaxOcclusionMapping.h" // 视差映射
+//#include "HDR.h"
+//#include "Bloom.h"
+//#include "DeferredShading.h"  // 延迟着色
+//#include "DeferredShadingVolumes.h" // 延迟着色体积
+//#include "SSAO.h"
+//#include "PBRLight.h"
+//#include "PBRLightTexture.h"
+//#include "IblIrradianceConversion.h"
+//#include "IblIrradiance.h"
 
 int main() {
 	//RunShader();
@@ -45,6 +61,22 @@ int main() {
 	//RunGeometryShaderHouses();
 	//RunGeometryShaderExploading();
 	//RunNormalVisualization();
-	RunAsteroidsInstanced();
+	//RunAsteroidsInstanced();
+	//RunBlinnPhong();
+	//RunShadowMappingDepth();
+	//RunShadowMappingBase();
+	//RunPointShadows();
+	//RunNormalMapping();
+	//RunParallaxMapping();
+	//RunParallaxOcclusionMapping();
+	//RunHDR();
+	//RunBloom();
+	//RunDeferredShading();
+	//RunDeferredShadingVolumes();
+	//RunSSAO();
+	//RunPBRLight();
+	//RunPBRLightTexture();
+	//RunIblIrradianceConversion();
+	//RunIblIrradiance();
 	return 0;
 }
